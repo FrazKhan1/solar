@@ -14,15 +14,7 @@ const NewsLetter = () => {
           </p>
         </div>
         <div className="  d-flex justify-content-end">
-          <div
-            className="d-flex justify-content-between align-items-center"
-            style={{
-              backgroundColor: "#fff",
-              borderRadius: "25px",
-              width: "427px",
-              height: "50px",
-            }}
-          >
+          <div className="d-flex justify-content-between align-items-center style">
             <input
               placeholder="Inserisci la tua email"
               style={{ backgroundColor: "transparent", border: "none" }}

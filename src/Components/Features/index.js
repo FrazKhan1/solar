@@ -5,7 +5,7 @@ import IconBox from "../IconBox";
 
 const Features = () => {
   return (
-    <div className="mt-4 bg-pattern">
+    <div id="SIREFeatures" className="mt-4 bg-pattern">
       <div className="d-flex flex-column align-items-center justify-content-center w-100 ">
         <div>
           <Heading title="Connesso, Intelligente, Resistente" />

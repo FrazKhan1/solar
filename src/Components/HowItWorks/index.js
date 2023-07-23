@@ -9,7 +9,7 @@ import icon4 from "../../assets/images/HowItWorksImages/4.png";
 
 const HowItWorks = () => {
   return (
-    <div className="py-5">
+    <div id="HowitWorks" className="py-5">
       <Heading title="Connettiti al sole anche tu" />
       <div className="d-flex how justify-content-center align-item-center work-align mt-5">
         <div className="bg1">

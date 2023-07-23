@@ -8,7 +8,7 @@ import "./index.css";
 
 const SIRE = () => {
   return (
-    <div className="padding">
+    <div className="padding" id="SIRE">
       <div className="d-flex around justify-content-center align-items-center position-relative ">
         <div className="d-flex around w-75 justify-content-around align-items-center">
           <div>

@@ -9,7 +9,10 @@ import bgpattern from "../../assets/images/bgPattern.png";
 
 const About = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center flex-column w-100 py-5 position-relative">
+    <div
+      id="ChiSiamo"
+      className="d-flex justify-content-center align-items-center flex-column w-100 py-5 position-relative"
+    >
       <img className="pattern" src={bgpattern} alt="Pattern" />
       <div className="w-75 d-flex justify-content-center align-items-center flex-column">
         <Heading title="Chi Siamo" />

@@ -27,7 +27,7 @@
     padding: 200px 0px;
   }
   .col-md-12 h1 {
-    font-size: 40px;
+    font-size: 25px !important ;
     font-weight: 700;
     color: #fff;
     text-align: center;

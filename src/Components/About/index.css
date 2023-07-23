@@ -18,4 +18,14 @@
     display: flex !important;
     flex-direction: column !important;
   }
+  .about {
+    width: 270px !important;
+    height: 320px;
+  }
+  .w-75 {
+    width: 90% !important;
+  }
+  .test {
+    width: 90% !important;
+  }
 }

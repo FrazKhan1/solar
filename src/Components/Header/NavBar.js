@@ -2,13 +2,13 @@ import React from "react";
 import logo from "../../assets/images/logo.png";
 
 const Menu = [
-  { name: "Home", href: "/" },
-  { name: "Chi Siamo", href: "ChiSiamo" },
-  { name: "S.I.R.E", href: "SIRE" },
-  { name: "SIRE Features", href: "SIREFeatures" },
-  { name: "Why SIRE?", href: "WhySIRE" },
-  { name: "SIRE Product", href: "SIREProduct" },
-  { name: "How it Works?", href: "HowitWorks" },
+  { name: "Home", href: "#/" },
+  { name: "Chi Siamo", href: "#ChiSiamo" },
+  { name: "S.I.R.E", href: "#SIRE" },
+  { name: "SIRE Features", href: "#SIREFeatures" },
+  { name: "Why SIRE?", href: "#WhySIRE" },
+  { name: "SIRE Product", href: "#SIREProduct" },
+  { name: "How it Works?", href: "#HowitWorks" },
 ];
 
 const NavBar = () => {

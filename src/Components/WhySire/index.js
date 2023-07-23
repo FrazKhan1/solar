@@ -13,7 +13,7 @@ import SmallBlurb from "../SmallBlurb";
 
 const WhySire = () => {
   return (
-    <div className="py-5">
+    <div id="WhySIRE" className="py-5">
       <div className="d-flex justify-content-center align-items-center flex-column ">
         <div>
           <Heading title="Perchè S.I.R.E." />
