@@ -1,0 +1,34 @@
+.bg-newletter {
+  background-image: url("../../assets/images/NewletterImages/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+input {
+  padding-left: 20px;
+}
+.content h4 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}
+.content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mobi {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .col-6 {
+    width: 100% !important;
+  }
+}

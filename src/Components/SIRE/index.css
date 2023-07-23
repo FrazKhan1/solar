@@ -1,0 +1,98 @@
+.elipse {
+  background-image: url("../../assets/images/SireImages/Ellipse.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 413px;
+  height: 413px;
+}
+.image--ab {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+}
+.image--ba {
+  position: absolute;
+  z-index: 999;
+}
+.p1 {
+  position: absolute;
+  left: 20.4%;
+  top: -4%;
+  z-index: 0000;
+}
+.p2 {
+  position: absolute;
+  left: 42.4%;
+  bottom: -17%;
+  z-index: 0000;
+}
+.p3 {
+  position: absolute;
+  right: 29%;
+  top: 1%;
+  z-index: 0000;
+}
+.p4 {
+  position: absolute;
+  right: 22%;
+  top: 11%;
+  z-index: 0000;
+}
+.sire h4 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #86be3f;
+}
+.sire h1 {
+  font-weight: 600;
+  font-size: 34px;
+}
+.sire p {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666666;
+}
+.padding {
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .around {
+    display: flex;
+    flex-direction: column;
+  }
+  .image--ab {
+    position: static;
+    width: 300px;
+  }
+  .image--ba {
+    position: static;
+    width: 300px;
+  }
+  .sire {
+    width: 100% !important;
+  }
+  .sire h4 {
+    margin-top: 150px;
+  }
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    display: none;
+  }
+  .elipse {
+    background-image: url("../../assets/images/SireImages/Ellipse.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 313px;
+    height: 413px;
+  }
+  .padding {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+}

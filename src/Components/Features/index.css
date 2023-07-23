@@ -1,0 +1,14 @@
+.bg-pattern {
+  background-image: url("../../assets/images/FeaturesImages/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .align {
+    display: flex;
+    flex-direction: column;
+  }
+}

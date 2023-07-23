@@ -1,0 +1,42 @@
+.hero-section {
+  background-image: url("../../assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 400px 0px;
+}
+.col-md-12 h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.col-md-12 p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 33px;
+}
+@media only screen and (max-width: 786px) {
+  .hero-section {
+    background-image: url("../../assets/images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px;
+  }
+  .col-md-12 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+  .col-md-12 p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+  }
+}

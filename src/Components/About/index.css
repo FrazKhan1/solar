@@ -1,0 +1,21 @@
+.pattern {
+  position: absolute;
+  top: 8% !important;
+  left: 8%;
+}
+.test {
+  font-weight: 500;
+  font-size: 21px;
+  font-style: italic;
+}
+.test p {
+  font-size: 18px;
+  color: #86be3f;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blurb {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}

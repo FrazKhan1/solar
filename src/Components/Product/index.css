@@ -1,0 +1,47 @@
+.shadow {
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+  height: 910px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.product h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #86be3f;
+}
+.lists {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #666666;
+  line-height: 2rem;
+}
+.listsLower {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #666666;
+  line-height: 1.6rem;
+}
+.w-40 {
+  width: 40% !important;
+}
+.heading5 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #363636;
+}
+
+@media only screen and (max-width: 1000px) {
+  .product-align {
+    flex-direction: column;
+  }
+  .shadow {
+    margin-right: 0px !important;
+    width: 80% !important;
+    margin-bottom: 20px !important;
+  }
+  .shadow img {
+    width: 100% !important;
+  }
+}

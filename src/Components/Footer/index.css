@@ -1,0 +1,63 @@
+.bg-footer {
+  background: linear-gradient(rgba(77, 77, 77, 0.6), rgba(77, 77, 77, 0.6)),
+    url("../../assets/images/FooterImages/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  padding-top: 50px;
+}
+
+.ftext {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.ftext p {
+  padding-top: 30px;
+}
+.listing {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 6px 0px;
+  color: #fff;
+}
+.listing3 {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 6px 0px;
+  margin-left: -50px;
+}
+
+.links h4 {
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #fff;
+}
+.uselinks h4 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: -50px;
+  color: #fff;
+}
+.line {
+  background-color: #c9c9c9;
+  width: 100%;
+  height: 1px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ftext {
+    flex-direction: column;
+  }
+  .bg-footer {
+    background: linear-gradient(rgba(77, 77, 77, 0.6), rgba(77, 77, 77, 0.6)),
+      url("../../assets/images/FooterImages/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    padding-top: 50px;
+  }
+}

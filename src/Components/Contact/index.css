@@ -1,0 +1,50 @@
+.data p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+input {
+  height: 45px;
+  border: 1px solid rgba(222, 222, 222, 1);
+  border-radius: 9px;
+  margin: 20px 0px;
+}
+.data {
+  padding: 5px 5px;
+}
+.data p {
+  margin-left: 20px;
+}
+.left {
+  width: 25%;
+}
+.left,
+.right {
+  border: 1px solid #dedede;
+  border-radius: 9px;
+  height: 344px !important;
+}
+
+.w21 {
+  width: 21% !important;
+}
+.bup {
+  border-top: 1px solid #dedede;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .column-mob {
+    flex-direction: column !important;
+  }
+  .left {
+    width: 90% !important;
+    height: 100% !important;
+    margin-left: 35px;
+  }
+  .right {
+    width: 90% !important;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+}

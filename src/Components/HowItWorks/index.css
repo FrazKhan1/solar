@@ -1,0 +1,41 @@
+.bg1 {
+  background-image: url("../../assets/images/HowItWorksImages/backgrounds/1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 40px 20px !important;
+}
+.bg2 {
+  background-image: url("../../assets/images/HowItWorksImages/backgrounds/2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 45px 20px !important;
+}
+.bg3 {
+  background-image: url("../../assets/images/HowItWorksImages/backgrounds/3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 45px 20px !important;
+}
+.bg4 {
+  background-image: url("../../assets/images/HowItWorksImages/backgrounds/4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 45px 20px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .work-align {
+    flex-direction: column;
+    margin-bottom: 10px !important;
+  }
+  .bg1,
+  .bg2,
+  .bg3,
+  .bg4 {
+    margin-bottom: 10px !important;
+  }
+}
