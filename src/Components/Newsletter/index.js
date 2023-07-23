@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import circle from "../../assets/images/NewletterImages/circle.png";
 import icon from "../../assets/images/NewletterImages/icon.png";
 
 const NewsLetter = () => {

@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../../assets/images/logo.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoIosMail } from "react-icons/io";
-import NavBar from "./NavBar";
 
 const TopBar = () => {
   return (
