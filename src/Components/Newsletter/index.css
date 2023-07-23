@@ -28,6 +28,9 @@ input {
   width: 427px;
   height: 50px;
 }
+.w-65 {
+  width: 65% !important;
+}
 
 @media only screen and (max-width: 1000px) {
   .mobi {

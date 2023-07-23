@@ -85,6 +85,7 @@ a.nav-link:active {
 .icon-blurb h3 {
   font-weight: 600;
   font-size: 24px;
+  text-align: center;
 }
 .icon-blurb p {
   font-weight: 400;
@@ -148,7 +149,7 @@ a.nav-link:active {
   border-radius: 10px;
 }
 /* accordion */
-.w-65 {
+.width {
   width: 65% !important;
 }
 .heading-5 {
@@ -255,7 +256,35 @@ a.nav-link:active {
     height: 400px;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
     padding: 10px 50px !important;
-    margin-right: 30px;
+    margin-right: 0px !important;
     border-radius: 10px;
+  }
+  .width {
+    width: 90% !important;
+  }
+  .margin {
+    margin-right: 1rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .margin {
+    margin-right: 1rem;
+  }
+  .about {
+    background-color: #f8f8f8;
+    width: 320px;
+    height: 320px;
+    padding: 50px 20px !important;
+  }
+  .about h4 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .about p {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
   }
 }

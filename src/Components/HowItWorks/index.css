@@ -39,3 +39,15 @@
     margin-bottom: 10px !important;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .work-align {
+    flex-direction: column;
+    margin-bottom: 10px !important;
+  }
+  .bg1,
+  .bg2,
+  .bg3,
+  .bg4 {
+    margin-bottom: 10px !important;
+  }
+}

@@ -108,7 +108,7 @@ const Product = () => {
       className="d-flex flex-column align-items-center justify-content-center"
     >
       <Heading title="Scegli il tuo SIRE" />
-      <div className="d-flex product-align  align-items-center justify-content-center mt-5">
+      <div className="d-flex product-align  align-items-center justify-content-around mt-5">
         <div className="mr-5 shadow  ">
           <img src={Product1} alt="Product Pic" />
           <div className="px-4 py-3 product">

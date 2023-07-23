@@ -28,7 +28,7 @@ const Footer = () => {
 
   return (
     <footer class="bg-footer  ">
-      <div class="container-fluid w-65">
+      <div class="container-fluid width-footer">
         <div class="row mb-5">
           <div class="col-md-3 ftext">
             <img src={logo} alt="Logo" />
@@ -37,7 +37,7 @@ const Footer = () => {
               vitae orci maecenas tortor odio Leo dui fermentum tristique urna
               tellus eget amet aliquam.
             </p>
-            <div>
+            <div className="py-3">
               <div>
                 <img src={client} alt="Client Logo" />
                 <img src={client} alt="Client Logo" />
@@ -108,7 +108,7 @@ const Footer = () => {
 
         <div class="row mb-4">
           <div class="col-12 pb-4">
-            <div class="line"></div>
+            <div class="linefooter"></div>
           </div>
           <div class="col-md-6 text-md-left">
             <p style={{ color: "#fff" }}>All Rights Reserved</p>

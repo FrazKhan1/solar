@@ -3,7 +3,7 @@ import React from "react";
 const Faq = ({ title, description, id, target }) => {
   return (
     <div className="mt-3 flex-column d-flex justify-content-center align-items-center ">
-      <div id="accordionExample" class="accordion  w-65">
+      <div id="accordionExample" class="accordion  width">
         <div class="card ">
           <div id={id} class="card-header bg-white ">
             <h6 class="mb-0 heading-5">

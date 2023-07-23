@@ -11,7 +11,7 @@ const HowItWorks = () => {
   return (
     <div id="HowitWorks" className="py-5">
       <Heading title="Connettiti al sole anche tu" />
-      <div className="d-flex how justify-content-center align-item-center work-align mt-5">
+      <div className="d-flex how justify-content-center align-item-center work-align  mt-5">
         <div className="bg1">
           <WorkBlurb
             title="Richiedi un Preventivo"

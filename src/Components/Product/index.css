@@ -45,3 +45,16 @@
     width: 100% !important;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .mr {
+    margin-right: 2rem !important;
+  }
+  .shadow {
+    margin-right: 0px !important;
+    width: 40% !important;
+    margin-bottom: 20px !important;
+  }
+  .shadow img {
+    width: 100% !important;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
+import "./index.css";
 
 const Menu = [
   { name: "Home", href: "#/" },
@@ -34,7 +35,7 @@ const NavBar = () => {
           <ul className="navbar-nav mx-auto d-flex justify-content-end">
             {Menu.map((item, key) => {
               return (
-                <li key={key} className="nav-item px-5 active">
+                <li key={key} className="nav-item px active">
                   <a className="nav-link" href={item.href}>
                     {item.name}
                   </a>
